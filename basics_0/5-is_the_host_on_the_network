@@ -1,6 +1,6 @@
 #!/bin/bash
 # 5-is_the_host_on_the_network
-if [ -z "$1" ] ; then
+if [ $# -eq 0 ] ; then
 	echo "Usage: $0 {IP_ADDRESS}"
 	exit 1
 else
